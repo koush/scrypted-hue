@@ -1,6 +1,6 @@
 {
    "name": "@scrypted/hue",
-   "version": "1.2.4",
+   "version": "1.2.5",
    "description": "A Philips Hue plugin for Scrypted",
    "author": "Scrypted",
    "license": "Apache",
@@ -23,13 +23,14 @@
       "type": "Device",
       "interfaces": [
          "DeviceProvider"
-      ]
+      ],
+      "rejectUnauthorized": false
    },
    "devDependencies": {
-      "@scrypted/sdk": "0.0.46",
+      "@scrypted/sdk": "0.0.63",
       "webpack-merge": "^4.2.1"
    },
    "dependencies": {
-      "node-hue-api": "^2.4.4"
+      "node-hue-api": "^4.0.9"
    }
 }
